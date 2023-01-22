@@ -1,0 +1,65 @@
+---
+title: Typography
+tags:
+  - nextjs
+  - reactjs
+date: 2023-01-23
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu ex dignissim eros maximus porta pretium a augue. Nulla porttitor enim consectetur justo fringilla luctus.
+---
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+**Bold Text**
+
+_Italicized Text_
+
+> Blockquote
+
+- Unordered List Item 1
+- Unordered List Item 2
+- Unordered List Item 3
+
+1. Ordered List Item 1
+2. Ordered List Item 2
+3. Ordered List Item 3
+
+[Link](https://www.example.com)
+
+![Image](https://images.pexels.com/photos/5245865/pexels-photo-5245865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+
+```rust
+fn main() {
+    println!("Rust rust rust rust!");
+}
+```
+
+```x86asm
+section .data
+    hello db 'x86asm, x86asm, x86asm, x86asm!',0
+
+section .text
+    global _start
+
+_start:
+    ; write(1, hello, 13)
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, hello
+    mov edx, 13
+    int 0x80
+
+    ; exit(0)
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80
+```

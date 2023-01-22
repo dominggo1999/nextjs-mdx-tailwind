@@ -5,3 +5,56 @@
 body {
   @apply min-h-screen bg-primary text-white;
 }
+
+#content pre {
+  @apply py-4;
+}
+
+#content p {
+  @apply mb-4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply my-6 font-bold text-secondary-500;
+}
+
+#content h1 {
+  @apply text-3xl;
+}
+
+#content h2 {
+  @apply text-2xl;
+}
+
+#content h3 {
+  @apply text-xl;
+}
+
+#content h4 {
+  @apply text-lg;
+}
+
+#content h5 {
+  @apply text-base;
+}
+
+#content h6 {
+  @apply text-sm;
+}
+
+#content a {
+  @apply text-secondary-500;
+}
+
+#content ul {
+  @apply list-inside list-disc;
+}
+
+#content ol {
+  @apply list-inside list-decimal;
+}

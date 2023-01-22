@@ -5,11 +5,6 @@ module.exports = {
   theme: {
     extend: {
       container: {
-        screens: {
-          sm: "640px",
-          md: "768px",
-          lg: "1000px",
-        },
         padding: {
           DEFAULT: "1rem",
           lg: "0rem",
